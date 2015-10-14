@@ -1,0 +1,21 @@
+1.to run app
+
+  DEBUG=main bin/www
+
+2.to run mongo: 
+  mongod --nojournal --dbpath=data
+
+OR
+
+made executable by 
+
+  echo 'mongod --nojournal --dbpath=data' > mongod-start
+  chmod a+x mongod-start
+
+then run
+
+  ./mongod-start
+
+
+
+
